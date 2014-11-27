@@ -9,7 +9,7 @@ class ProspectsController < ApplicationController
   end
 
   def prospect_params
-      params.require(:prospect).permit(:email)
+      params.require(:prospect).permit(:email, :inviter_id)
   end
 
 end

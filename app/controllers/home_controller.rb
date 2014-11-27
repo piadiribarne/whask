@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @prospect = Prospect.new
+    @prospect = Prospect.new(inviter_id: params[:inviter_id])
   end
 
   def thanks

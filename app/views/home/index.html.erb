@@ -23,7 +23,8 @@
           <% end %>
 
           <div class="field">
-           <%= f.text_field :email, placeholder: "Enter your email" %>
+           <%= f.text_field :email, :class => "enter-email", placeholder: "Enter your email" %>
+           <%= f.hidden_field :inviter_id %>
          </div>
 
           <%= f.button "Be the first informed!", class: "btn btn-default" %>

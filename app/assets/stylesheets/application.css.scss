@@ -22,10 +22,21 @@ body {
   margin-bottom: 70px;
 }
 
+.main-content-contact {
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+
+
 .field {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+.enter-email {
+  border-radius: 5px;
+}
+
 
 .btn-default {
   border: none;
@@ -35,6 +46,7 @@ body {
   padding-bottom: 15px;
   padding-right: 25px;
   padding-left: 25px;
+  border-radius: 10px;
 }
 .btn-default:hover {
   background: rgba(253, 96, 46, 0.9);
