@@ -1,5 +1,16 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor', group: :production
+gem 'binding_of_caller', group: :development
+gem 'better_errors', group: :development
+
+gem 'figaro'
+
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'font-awesome-sass', '~> 4.2.0'
+gem 'bootstrap_form'
+
+gem 'autoprefixer-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
@@ -28,6 +39,10 @@ gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
+
 
 # Use unicorn as the app server
 # gem 'unicorn'
