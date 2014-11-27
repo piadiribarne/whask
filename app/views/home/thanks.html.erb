@@ -16,8 +16,9 @@
     <h4> Share with your friends and increase </h4>
     <h4> your chances to become a Beta tester ! </h4>
     <div class="social-buttons">
-      <a class="fb-share-button" data-href="http://0.0.0.0:3000" data-layout="button"></a>
+      <a class="fb-share-button" data-href="<%= root_url(inviter_id: params[:inviter_id]) %>" data-layout="button"></a>
       <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
   </div>
 </div>

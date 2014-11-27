@@ -2,7 +2,7 @@ class ProspectsController < ApplicationController
   def create
     @prospect=Prospect.new(prospect_params)
     if @prospect.save
-      redirect_to thanks_path
+      redirect_to thanks_path(inviter_id: @prospect.id)
     else
       render 'home/index'
     end
