@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root to: 'home#index'
   get 'thanks', to: 'home#thanks'
   get 'contact', to: 'home#contact'
+   get 'about', to: 'home#about'
 
   resources :prospects, only: :create
 

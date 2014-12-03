@@ -12,6 +12,16 @@ body {
   color: white;
 }
 
+.img-circle {
+  width: auto;
+  height: 300px;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  border: 10px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 5px lightgrey;
+}
+
 .main-content {
   margin-top: 100px;
   margin-bottom: 40px;
