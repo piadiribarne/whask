@@ -15,3 +15,10 @@
 //= require turbolinks
 //= require bootstrap
 //= require_tree .
+
+//CREATE animate.js
+// $(document).ready(function() {
+//   $('.fa-smile-o').on('mouseover', function() {
+//     $('.fa-smile-o').css('font-size', '80px');
+//   });
+// });
